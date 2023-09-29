@@ -1,0 +1,145 @@
+/* <1200px */
+@media (max-width: 1200px) {
+    #sobre {
+        width: 80%;
+    }
+}
+
+/* <650px */
+@media (max-width: 650px) {
+    header {
+        height: 50px;
+    }
+    nav {
+        font-size: 130%;
+        padding: 10px;
+    }
+    #perfil {
+        width: 50%;
+    }
+    h1 {
+        font-size: 200%;
+    }
+    h2 {
+        font-size: 170%;
+        padding-left: 2%;
+    }
+    h3 {
+        font-size: 130%;
+        padding-left: 1%;
+    }
+    p {
+        font-size: 100%;
+        padding-left: 1%;
+        padding-right: 2%;
+        text-align: justify;
+    }
+    #sobre {
+        width: 100%;
+    }
+    .coluna {
+        display: flex;
+        flex-direction: column;
+    }
+    .coluna img {
+        width: 40%;
+        padding-left: 30%;
+    }
+    footer {
+        padding: 10px;
+    }
+    #up, #down {
+        flex-direction: column;
+        width: 50%;
+    }
+    #down input {
+        width: 270px;
+    }
+    button {
+        width: 20%;
+        margin-top: 5px;
+    }
+}
+
+/* <450px */
+@media (max-width: 450px) {
+    header {
+        height: 30px;
+    }
+    nav {
+        font-size: 90%;
+        padding: 3px;
+    }
+    nav a {
+        width: 100px;
+    }
+    #perfil {
+        width: 60%;
+    }
+    #redes {
+        font-size: 170%;
+    }
+    #redes a {
+        margin: 0px 5px;
+    }
+    h1 {
+        font-size: 155%;
+    }
+    h2 {
+        font-size: 135%;
+    }
+    h3 {
+        font-size: 110%;
+    }
+    p {
+        font-size: 100%;
+    }
+    #up, #down {
+        flex-direction: column;
+        width: 80%;
+    }
+    #down input {
+        width: 290px;
+    }
+    button {
+        width: 15%;
+    }
+    footer {
+        padding: 5px;
+    }
+}
+
+/* <270px */
+@media (max-width: 450px) {
+    header {
+        height: 30px;
+    }
+    nav {
+        font-size: 90%;
+        padding: 3px 1px;
+    }
+    nav a {
+        height: 20px;
+    }
+    #perfil {
+        width: 70%;
+    }
+    .coluna img {
+        width: 50%;
+        padding-left: 25%;
+    }
+    #up, #down {
+        flex-direction: column;
+        width: 100%;
+    }
+    #down input {
+        width: 95%;
+    }
+    button {
+        width: 25%;
+    }
+    footer {
+        padding: 5px;
+        font-size: 70%
+    }
+}
