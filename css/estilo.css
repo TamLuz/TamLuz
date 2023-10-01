@@ -1,5 +1,7 @@
 body,html {
-    border: 3px #609aff solid;
+    border: ridge 4px black;
+    border-radius: 7px;
+    outline: solid 15px #609aff;
     background-color: #bbbbbb;
 }
 
