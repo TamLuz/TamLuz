@@ -7,6 +7,7 @@
         <title>Tamires da Luz - Contato</title>
         <link rel="stylesheet" href="./css/estilo.css">
         <link rel="stylesheet" href="./css/responsivo.css">
+        <script src="./script.js"></script>
         <script src="https://kit.fontawesome.com/67c53a60dd.js" crossorigin="anonymous"></script>
     </head>
 
@@ -32,18 +33,21 @@
                     <i class="fa-brands fa-linkedin" style="color: #003899;" alt="Link p/ LinkedIn"></i>
                 </a><br>
             </section>
-            <form action="https://formsubmit.co/tam2techno@gmail.com" method="POST">
+
+            <h2>Deixe uma mensagem 📧</h2>
+            <form id="meuForm" action="https://formsubmit.co/tam2techno@gmail.com" method="POST">
                 <div id="up">
                     <label for="name">Nome</label>
-                    <input type="text" name="name" id="name" required>
+                    <input type="text" placeholder="Seu nome" name="name" id="name" required="required">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" required><br>
+                    <input type="email" placeholder="seuemail@example.com" name="email" id="email" required="required"><br>
                 </div>
                 <div id="down">
                     <label for="message">Messagem</label>
-                    <input type="text" name="message" id="message" required>
-                    <button type="submit">Send</button>
+                    <textarea placeholder="Mensagem" name="message" id="message" required="required"></textarea>
+                    <button type="submit" class="enviar" onclick="Enviar()" value="Enviar">Send</button>
                 </div>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html">
             </form>
         </main>
 

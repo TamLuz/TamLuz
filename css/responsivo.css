@@ -50,10 +50,7 @@
     }
     #up, #down {
         flex-direction: column;
-        width: 50%;
-    }
-    #down input {
-        width: 270px;
+        width: 75%;
     }
     button {
         width: 20%;
@@ -98,8 +95,8 @@
         flex-direction: column;
         width: 80%;
     }
-    #down input {
-        width: 290px;
+    #down textarea {
+        width: 100%;
     }
     button {
         width: 15%;
@@ -109,13 +106,13 @@
     }
 }
 
-/* <270px */
-@media (max-width: 450px) {
+/* <340px */
+@media (max-width: 340px) {
     header {
-        height: 30px;
+        height: 25px;
     }
     nav {
-        font-size: 90%;
+        font-size: 70%;
         padding: 3px 1px;
     }
     nav a {
@@ -132,7 +129,7 @@
         flex-direction: column;
         width: 100%;
     }
-    #down input {
+    #down textarea {
         width: 95%;
     }
     button {

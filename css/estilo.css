@@ -52,6 +52,7 @@ main {
 
     #perfil:hover {
         border: #010174 solid 2px;
+        box-shadow: 1px 1px 7px #010174;
     }
 
     #redes {
@@ -67,11 +68,18 @@ main {
 
     #redes a i:hover {
         font-size: larger;
+        border-radius: 30px;
+        box-shadow: 1px 1px 7px #010174;
     }
 
     /* FONTS */
     h1 {
         font-size: 250%;
+    }
+
+    #thanku {
+        text-align: center;
+        margin-bottom: 5%;
     }
 
     h2 {
@@ -102,6 +110,12 @@ main {
 
     .coluna img {
         padding: 0% 1% 1% 0%;
+        opacity: 0.7;
+    }
+
+    .coluna img:hover {
+        opacity: 1;
+        box-shadow: 1px 1px 7px #313131;
     }
 
     .coluna a {
@@ -131,24 +145,33 @@ main {
         padding-left: 1%;
     }
 
-    #up input, #down input {
+    #up input {
         margin-left: 2px;
+        border-radius: 30px;
     }
 
-    #down input {
-        width: 200px;
-        height: 60px;
+    #up input:hover, #down textarea:hover {
+        box-shadow: 1px 1px 7px #313131;
+    }
+
+    #down textarea {
+        margin-left: 2px;
+        border-radius: 10px;
+        width: 300px;
+        height: 75px;
         margin-top: 5px;
     }
 
     button {
         background-color: #609aff;
+        border-radius: 30px;
         height: 25px;
-        margin: 45px 0px 0px 5px;
+        margin: 55px 0px 0px 5px;
     }
 
     button:hover {
         color: #bbbbbb;
+        box-shadow: 1px 1px 7px #010174;
     }
 
 /* FOOTER */
